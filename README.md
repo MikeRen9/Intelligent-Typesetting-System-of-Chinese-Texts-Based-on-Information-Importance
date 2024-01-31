@@ -18,5 +18,8 @@
 ## 例子
 
 1. 主界面
+   ![image](https://github.com/MikeRen9/Intelligent-Typesetting-System-of-Chinese-Texts-Based-on-Information-Importance/blob/main/images/HomePage.png)
 2. 输入文本
+   ![image](https://github.com/MikeRen9/Intelligent-Typesetting-System-of-Chinese-Texts-Based-on-Information-Importance/blob/main/images/input.png)
 3. 排版结果
+   ![image](https://github.com/MikeRen9/Intelligent-Typesetting-System-of-Chinese-Texts-Based-on-Information-Importance/blob/main/images/results.png)
