@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>基于信息重要程度的智能化中文排版</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .fontFamilyClass {
+            font-family:'Microsoft YaHei';
+        }
+        #textareaTittle{
+            background-color: #e2e3e5;
+            border-color: #d6d8db;
+            height: 40px;
+            font-size: 18px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            padding: 6px 13px;
+        }
+
+        .GreenDiv, .BlueDiv, .YellowDiv{
+            min-height: 100px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-family:'Microsoft YaHei';
+        }
+        .GreenDiv div, .BlueDiv div, .YellowDiv div{
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+            height: 40px;
+            font-size: 18px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            padding: 6px 13px;
+        }
+        .GreenDiv p, .BlueDiv p, .YellowDiv p{
+            padding: 10px;
+            background-color: white;
+        }
+
+        .BlueDiv div{
+            background-color: #cce5ff;
+            border-color: #b8daff;
+        }
+
+        .YellowDiv div{
+            background-color: #fff3cd;
+            border-color: #ffeeba;
+        }
+
+        .titleClass {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 bg-light">
+            <br/>
+            <h1 class="text-center fontFamilyClass">基 于 信 息 重 要 程 度 的 智 能 化 中 文 排 版</h1>
+            <h5 class="text-center fontFamilyClass">Intelligent Typesetting System of Chinese Texts Based on Information Importance</h5>
+            <br/>
+            <form role="form">
+                <div class="form-group">
+                    <div id="textareaTittle">
+                        <span class="alert-heading fontFamilyClass">请输入需要处理的中文段落 (Please enter the Chinese paragraph that needs to be processed) ：</span>
+                    </div>
+                    <textarea class="form-control" rows="10" id="textareaId"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn btn-success btn-lg ml-auto" id="startButtonId">S t a r t</button>
+                </div>
+            </form>
+            <!--Model —— TextRank-->
+            <br/>
+            <div class="GreenDiv">
+                <div>
+                    <span class="alert-heading fontFamilyClass titleClass">根据信息权重处理字体大小的排版 (Typograph font size based on the importance of information) ：</span>
+                </div>
+                <p class="mb-0" id="TextRankFontSize">测试TestRank</p>
+            </div>
+            <div class="BlueDiv">
+                <div>
+                    <span class="alert-heading fontFamilyClass titleClass">根据信息权重处理字体明暗程度的排版 (Typograph font lightness based on the importance of information) ：</span>
+                </div>
+                <p class="mb-0" id="TextRankFontLightness">测试TestRank</p>
+            </div>
+            <div class="YellowDiv">
+                <div>
+                    <span class="alert-heading fontFamilyClass titleClass">根据信息权重处理字体色彩冷暖的排版 (Typography of warm and cool font colors based on the importance of information) ：</span>
+                </div>
+                <p class="mb-0" id="TextRankFontColorWarmthColdness">测试TestRank</p>
+            </div>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+</div>
+</body>
+<script src="./js/jquery-3.6.4.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/index.js"></script>
+</html>
