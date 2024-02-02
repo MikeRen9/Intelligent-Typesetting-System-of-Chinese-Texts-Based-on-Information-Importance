@@ -1,14 +1,14 @@
 # Intelligent-Typesetting-System-of-Chinese-Texts-Based-on-Information-Importance
-## 简介
+## Introduction
 
 This is an intelligent Chinese typesetting system based on the importance of information, which can enhance the readability of Chinese text. You can input the text you need to typeset into the system, and you will get a new text typography based on the importance of information.
 
-## 配置
+## Configuration
 
 * python
 * flask
 
-## 怎样使用
+## Instructions
 
 1.	Download the repository.
 2.	Run methods.py.
@@ -16,9 +16,9 @@ This is an intelligent Chinese typesetting system based on the importance of inf
 4.	Input text and start typesetting.
 
 
-## 例子
+## Example
 
-1. Main Interface
+1. Homepage
    ![image](https://github.com/MikeRen9/Intelligent-Typesetting-System-of-Chinese-Texts-Based-on-Information-Importance/blob/main/images/HomePage.png)
 2. Input Text
    ![image](https://github.com/MikeRen9/Intelligent-Typesetting-System-of-Chinese-Texts-Based-on-Information-Importance/blob/main/images/input.png)
