@@ -1,7 +1,7 @@
 # Intelligent-Typesetting-System-of-Chinese-Texts-Based-on-Information-Importance
 ## 简介
 
-这是一个基于信息重要程度的智能化中文排版系统，你可以将需要排版的文本输入系统，将会得到新的基于信息重要程度的文本排版。
+This is an intelligent Chinese typesetting system based on the importance of information, which can enhance the readability of Chinese text. You can input the text you need to typeset into the system, and you will get a new text typography based on the importance of information.
 
 ## 配置
 
@@ -10,16 +10,17 @@
 
 ## 怎样使用
 
-1. 下载仓库
-2. 运行methods.py
-3. 打开index.html
-4. 输入文本，开始排版！
+1.	Download the repository.
+2.	Run methods.py.
+3.	Open index.html.
+4.	Input text and start typesetting.
+
 
 ## 例子
 
-1. 主界面
+1. Main Interface
    ![image](https://github.com/MikeRen9/Intelligent-Typesetting-System-of-Chinese-Texts-Based-on-Information-Importance/blob/main/images/HomePage.png)
-2. 输入文本
+2. Input Text
    ![image](https://github.com/MikeRen9/Intelligent-Typesetting-System-of-Chinese-Texts-Based-on-Information-Importance/blob/main/images/input.png)
-3. 排版结果
+3. Typesetting Result
    ![image](https://github.com/MikeRen9/Intelligent-Typesetting-System-of-Chinese-Texts-Based-on-Information-Importance/blob/main/images/results.png)
