@@ -1,4 +1,4 @@
-# Intelligent-Typesetting-System-of-Chinese-Texts-Based-on-Information-Importance
+# IntelligentTypesettingSystemofChineseTextsBasedonInformationImportance
 ## Introduction
 
 This is an intelligent Chinese typesetting system based on the importance of information, which can enhance the readability of Chinese text. You can input the text you need to typeset into the system, and you will get a new text typography based on the importance of information.
